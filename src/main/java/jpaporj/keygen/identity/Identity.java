@@ -6,8 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-// @Entity
-@Table(name = "member")
+//@Entity
+@Table(name = "MEMBER")
 public class Identity {
 
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)

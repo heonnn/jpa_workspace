@@ -8,12 +8,12 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.TableGenerator;
 
-// @Entity
+//@Entity
 @TableGenerator(
 		name = "KEY_TABLE_GENERATOR", 
 		table = "KEY_TABLE",
 		pkColumnValue = "NEXT_VAL", allocationSize = 1)
-@Table(name = "member")
+@Table(name = "MEMBER")
 public class KeyTable {
 
 	@Id 
