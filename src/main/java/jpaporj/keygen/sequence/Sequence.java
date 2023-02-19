@@ -7,12 +7,12 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-// @Entity
+//@Entity
 @SequenceGenerator(
 		name = "BOARD_SEQ_GENERATOR", 
 		sequenceName = "BOARD_SEQ",
 		initialValue = 1, allocationSize = 1)
-@Table(name = "member")
+@Table(name = "MEMBER")
 public class Sequence {
 
 	@Id 
